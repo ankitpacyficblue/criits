@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CRIITS Event",
+  "type": "object",
+  "required": [
+    "tid",
+    "to_state",
+    "event_type",
+    "idempotency_key",
+    "producer",
+    "observed_at"
+  ],
+  "properties": {
+    "tid": {
+      "type": "string",
+      "description": "UUID of transaction"
+    },
+    "from_state": {
+      "type": "string"
+    },
+    "to_state": {
+      "type": "string",
+      "pattern": "^(CR|I(\\.[A-Z0-9_]+)?|TS\\.(SUCCEEDED|FAILED|CANCELED|EXPIRED))$"
+    },
+    "event_type": {
+      "type": "string"
+    },
+    "idempotency_key": {
+      "type": "string"
+    },
+    "producer": {
+      "type": "string"
+    },
+    "observed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "evidence": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "causation_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "correlation_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}
