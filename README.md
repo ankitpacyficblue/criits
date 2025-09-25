@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17132329.svg)](https://doi.org/10.5281/zenodo.17132329)
+
+
 # CRIITS White Paper (v1.0)
 
 This folder contains LaTeX sources for the **CRIITS** white paper (transaction-agnostic state machine).
