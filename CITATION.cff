@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use CRIITS in your work, please cite it."
+title: "CRIITS: A Transaction-Agnostic State Machine for Reliable End-to-End Processing"
+authors:
+  - family-names: Malhotra
+    given-names: Ankit
+version: "1.0.0"
+doi: "10.5281/zenodo.17132329"
+date-released: "2025-09-16"
+url: "https://github.com/ankitpacyficblue/criits"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.17132329"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Malhotra
+      given-names: Ankit
+  title: "CRIITS: A Transaction-Agnostic State Machine for Reliable End-to-End Processing"
+  year: 2025
+  doi: "10.5281/zenodo.17132329"
+  url: "https://doi.org/10.5281/zenodo.17132329"
+  publisher: Zenodo
