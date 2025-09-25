@@ -4,9 +4,9 @@ title: "CRIITS: A Transaction-Agnostic State Machine for Reliable End-to-End Pro
 authors:
   - family-names: Malhotra
     given-names: Ankit
-version: "1.0.0"
+version: "2.1.0"
 doi: "10.5281/zenodo.17132329"
-date-released: "2025-09-16"
+date-released: "2025-09-25"
 url: "https://github.com/ankitpacyficblue/criits"
 identifiers:
   - type: doi

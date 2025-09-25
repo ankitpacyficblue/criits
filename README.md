@@ -1,20 +1,14 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17132329.svg)](https://doi.org/10.5281/zenodo.17132329)
+# CRIITS White Paper (v2.1)
 
-# CRIITS — Transaction-Agnostic State Machine
+This folder contains LaTeX sources for the **CRIITS** white paper with **horizontal, width-fitted diagrams** that do not overflow.
 
-This repository hosts the white paper and reference artifacts for **CRIITS** (CR → I → I* → TS), a minimal lifecycle + operating convention for reliable end-to-end transaction processing across domains (payments, KYC, logistics, etc.).
-
-## What’s inside
-- `main.tex` — LaTeX white paper (title page shows the DOI and badge)
-- `sql/ddl.sql` — minimal CRIITS schema
-- `spec/event.schema.json` — JSON schema for events
-- `references.bib` — references including the CRIITS citation
-- `zenodo_badge.png` — Zenodo DOI badge (for PDF title page)
-- `CITATION.cff` — citation metadata (enables “Cite this repository” on GitHub)
-
-## Build the PDF
+## Compile (Linux/macOS)
 ```bash
+cd criits-whitepaper-v2_1
 pdflatex main.tex
 bibtex main || true
 pdflatex main.tex
 pdflatex main.tex
+```
+
+If TikZ or listings packages are missing, install a full TeX distribution (TeX Live) or use Overleaf and upload the entire folder.
